@@ -1,0 +1,139 @@
+version: "2.0"
+
+intents:
+  - mercury
+  - venus
+  - earth
+  - mars
+  - jupiter
+  - saturn
+  - uranus
+  - neptune
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_mercury:
+  - text: "Mercury is the smallest planet in our solar system and is the closest to the Sun."
+  - text: "It has a very thin atmosphere, primarily composed of trace amounts of helium, hydrogen, and oxygen."
+  - text: "Mercury has extreme temperature variations, with daytime temperatures reaching up to 800 degrees Fahrenheit (427 degrees Celsius) and nighttime temperatures dropping to -290 degrees Fahrenheit (-180 degrees Celsius)."
+  - text: "A day on Mercury, one complete rotation, takes about 59 Earth days, while its year, one orbit around the Sun, takes only about 88 Earth days."
+  - text: "Mercury is heavily cratered, similar to the Moon's surface, due to its lack of significant geological activity."
+  - text: "It has no moons or natural satellites."
+  - text: "The planet's surface is covered in plains, mountains, valleys, and large impact craters."
+  - text: "Mercury has a unique orbital pattern with a slight elliptical shape, which causes it to experience a phenomenon known as the 'double sunrise'."
+  - text: "Despite its proximity to the Sun, some regions near the planet's poles have permanent shadowed craters where water ice has been detected."
+  - text: "NASA's MESSENGER spacecraft was the first to orbit Mercury, providing valuable data about the planet's surface and composition."
+
+  utter_venus:
+  - text: "Venus is the second planet from the Sun and is often referred to as Earth's 'sister planet' due to its similar size and composition."
+  - text: "It has a thick and dense atmosphere primarily composed of carbon dioxide, with clouds of sulfuric acid."
+  - text: "Venus experiences a runaway greenhouse effect, resulting in surface temperatures hot enough to melt lead. It is the hottest planet in our solar system."
+  - text: "A day on Venus, one complete rotation, is longer than its year. It takes about 243 Earth days for Venus to rotate once on its axis, while its year lasts approximately 225 Earth days."
+  - text: "Venus has no natural moons or satellites."
+  - text: "The planet's surface is dominated by vast volcanic plains, highland regions, and thousands of volcanoes, including the massive Maxwell Montes."
+  - text: "Venus has a retrograde rotation, meaning it rotates in the opposite direction to most other planets, including Earth."
+  - text: "It is often referred to as the 'Evening Star' when it is visible in the western sky after sunset and the 'Morning Star' when it is visible in the eastern sky before sunrise."
+  - text: "Venus is known for its extreme atmospheric pressure, which is about 92 times greater than that of Earth at sea level."
+  - text: "Numerous spacecraft have been sent to Venus for exploration, including the Soviet Union's Venera missions and NASA's Magellan mission, which mapped the planet's surface using radar."
+
+  utter_earth:
+  - text: "Earth is the third planet from the Sun in our solar system."
+  - text: "It is the only known celestial body to support life, with a diverse range of ecosystems and organisms."
+  - text: "The Earth's atmosphere consists of approximately 78% nitrogen, 21% oxygen, and trace amounts of other gases, including carbon dioxide and argon."
+  - text: "The planet has a unique feature called the ozone layer, which protects life on Earth by absorbing most of the Sun's harmful ultraviolet (UV) radiation."
+  - text: "Earth has a molten iron core that generates a magnetic field, which acts as a protective shield against solar winds and cosmic radiation."
+  - text: "It has a diverse range of landscapes, including oceans, mountains, forests, deserts, and polar ice caps."
+  - text: "Earth has a natural satellite, the Moon, which is the fifth-largest moon in the solar system."
+  - text: "The planet's surface is about 71% covered by water, primarily in the form of oceans."
+  - text: "Earth's rotation on its axis takes approximately 24 hours, resulting in day and night cycles."
+  - text: "It orbits the Sun at an average distance of about 93 million miles (150 million kilometers) and completes one orbit roughly every 365.25 days, defining our calendar year."
+
+  utter_mars:
+  - text: "Mars is often called the 'Red Planet' due to its reddish appearance caused by iron oxide (rust) on its surface."
+  - text: "It is the fourth planet from the Sun and is located between Earth and Jupiter in our solar system."
+  - text: "Mars has a thin atmosphere primarily composed of carbon dioxide, with traces of nitrogen and argon."
+  - text: "The planet has two small moons, Phobos and Deimos, which are irregularly shaped and much smaller than Earth's moon."
+  - text: "Olympus Mons, located on Mars, is the largest volcano in the solar system, standing about 72,000 feet (21.9 kilometers) tall."
+  - text: "Mars has a canyon system known as Valles Marineris that stretches for over 4,000 kilometers (2,500 miles) and is deeper than the Grand Canyon on Earth."
+  - text: "A day on Mars, called a 'sol,' is approximately 24 hours and 39 minutes long, similar to a day on Earth."
+  - text: "Mars has shown evidence of past liquid water flows, suggesting that it may have had rivers and lakes in its ancient history."
+  - text: "NASA has sent several rovers to Mars, including Curiosity, Opportunity, and Perseverance, to explore its surface and gather scientific data."
+  - text: "There are plans for future human missions to Mars with the goal of sending astronauts to the planet in the coming decades to explore the potential for human colonization."
+    
+  utter_jupiter:
+  - text: "Jupiter is the largest planet in our solar system, with a diameter of approximately 139,822 kilometers (86,881 miles)."
+  - text: "It is a gas giant and primarily consists of hydrogen and helium, lacking a solid surface."
+  - text: "Jupiter has a powerful magnetic field, making it the strongest magnetic field of any planet in our solar system."
+  - text: "The planet has a prominent feature known as the Great Red Spot, a massive storm that has been raging for at least 350 years."
+  - text: "Jupiter has a large number of moons, with over 80 known natural satellites, including the four largest: Io, Europa, Ganymede, and Callisto."
+  - text: "It has a very short day, with a rotation period of about 9 hours and 55 minutes."
+  - text: "Jupiter has a faint ring system composed of tiny particles, although it is much less noticeable than Saturn's rings."
+  - text: "The planet's immense gravity affects the orbits of other nearby objects and plays a crucial role in the stability of the solar system."
+  - text: "Jupiter emits more heat than it receives from the Sun, primarily due to its gravitational contraction."
+  - text: "It is often referred to as a 'failed star' because it shares some similarities with stars but did not gather enough mass to initiate nuclear fusion."
+
+  utter_saturn:
+  - text: "Saturn is the sixth planet from the Sun in our solar system."
+  - text: "It is the second-largest planet, with a diameter of about 120,536 kilometers (74,846 miles)."
+  - text: "Saturn is known for its distinctive ring system, which consists of thousands of individual rings made primarily of ice particles and dust."
+  - text: "The planet's rings are divided into several main groups, including the A, B, and C rings, with the Cassini Division separating the A and B rings."
+  - text: "Saturn has a relatively low density, and it is less dense than water, which means it would float in a giant bathtub."
+  - text: "It has a prominent hexagonal-shaped storm at its north pole, which was first observed by the Cassini spacecraft."
+  - text: "Saturn has at least 82 known moons, with its largest moon, Titan, being the second-largest natural satellite in the solar system."
+  - text: "Titan has a thick atmosphere and is the only moon in the solar system known to have stable bodies of liquid on its surface, including lakes and rivers of liquid methane and ethane."
+  - text: "A day on Saturn is relatively short, with the planet's rotation taking just about 10.7 hours."
+  - text: "Saturn's atmosphere is mostly composed of hydrogen and helium, similar to Jupiter, and it exhibits a banded appearance with various cloud layers and storms."
+
+  utter_uranus:
+  - text: "Uranus is the seventh planet from the Sun in our solar system."
+  - text: "It is a gas giant and is often referred to as an 'ice giant' because it contains a significant amount of ice and other volatile compounds in its composition."
+  - text: "Uranus is unique among the planets in the solar system because it rotates on its side, with an axial tilt of approximately 98 degrees."
+  - text: "This extreme axial tilt causes Uranus to have very unusual seasons, with each pole experiencing nearly 17 years of continuous sunlight followed by 17 years of darkness."
+  - text: "The planet was discovered by German-born British astronomer Sir William Herschel on March 13, 1781."
+  - text: "Uranus has a ring system, though it is much less prominent than the rings of Saturn and consists of small, dark particles."
+  - text: "It has at least 27 known moons, with the largest ones being Titania and Oberon."
+  - text: "Uranus has a predominantly hydrogen and helium atmosphere, with traces of methane, which gives the planet its distinctive blue-green color."
+  - text: "The Voyager 2 spacecraft is the only spacecraft to have visited Uranus, passing by the planet in 1986 and providing valuable data and images."
+  - text: "Due to its distance from Earth and relatively dim appearance, Uranus is challenging to observe with the naked eye and is best viewed through telescopes."
+
+  utter_neptune:
+  - text: "Neptune is the eighth and farthest known planet from the Sun in our solar system."
+  - text: "It is a gas giant, similar in composition to Uranus, and is often referred to as an 'ice giant' due to its icy and volatile components."
+  - text: "Neptune was discovered on September 23, 1846, by German astronomer Johann Gottfried Galle, based on predictions by Urbain Le Verrier and John Couch Adams."
+  - text: "The planet is named after the Roman god of the sea and is known for its deep blue color, which is the result of methane in its atmosphere absorbing red light."
+  - text: "Neptune has a complex and dynamic atmosphere, featuring high-speed winds and massive storms, with the most famous being the Great Dark Spot."
+  - text: "Like Uranus, Neptune also has a tilted axis, but its tilt is less extreme, at about 28 degrees."
+  - text: "It has a ring system, consisting of five main rings, although they are faint and not as prominent as Saturn's rings."
+  - text: "Neptune has 14 known moons, with Triton being the largest and most notable. Triton is unique among large moons in the solar system because it orbits the planet in a retrograde direction, opposite to the planet's rotation."
+  - text: "Neptune's magnetic field is exceptionally strong and tilted relative to its rotational axis, creating a highly complex magnetic environment."
+  - text: "The only spacecraft to have visited Neptune is Voyager 2, which conducted a flyby of the planet in 1989, providing valuable data and images of this distant world."
+
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hello!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

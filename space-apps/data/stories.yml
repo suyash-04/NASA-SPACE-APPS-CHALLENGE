@@ -1,0 +1,77 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: mercury path 1
+  steps: 
+  - intent: mercury
+  - action: utter_mercury
+
+
+- story: venus path 1
+  steps: 
+  - intent: venus
+  - action: utter_venus
+
+
+- story: earth path 1
+  steps: 
+  - intent: earth
+  - action: utter_earth
+
+
+- story: mars path 1
+  steps: 
+  - intent: mars
+  - action: utter_mars
+
+
+- story: jupiter path 1
+  steps: 
+  - intent: jupiter
+  - action: utter_jupiter
+
+
+- story: saturn path 1
+  steps: 
+  - intent: saturn
+  - action: utter_saturn
+
+
+- story: uranus path 1
+  steps: 
+  - intent: uranus
+  - action: utter_uranus
+
+
+- story: neptune path 1
+  steps: 
+  - intent: neptune
+  - action: utter_neptune

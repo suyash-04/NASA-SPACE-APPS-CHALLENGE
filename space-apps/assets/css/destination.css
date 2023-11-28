@@ -1,0 +1,47 @@
+#about_div,
+#data_div {
+  display: none;
+}
+#about_div1,
+#data_div1 {
+  display: none;
+}
+#about_div2,
+#data_div2 {
+  display: none;
+}
+#about_div3,
+#data_div3 {
+  display: none;
+}
+#about_div4,
+#data_div4 {
+  display: none;
+}
+#about_div5,
+#data_div5 {
+  display: none;
+}
+
+#about_div6,
+#data_div6 {
+  display: none;
+}
+#about_div7,
+#data_div7 {
+  display: none;
+}
+ul li .up {
+  border: 5px solid black;
+  display: flex;
+  background-color: transparent;
+}
+ul li .up:hover {
+  color: turquoise;
+}
+ul li .up .logos {
+  margin-left: auto;
+}
+.links li {
+  list-style: none;
+}

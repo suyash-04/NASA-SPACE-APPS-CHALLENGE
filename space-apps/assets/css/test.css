@@ -1,0 +1,98 @@
+#about_div,
+#data_div {
+  display: none;
+  margin: 1% 2% 1% 2%;
+  border: 1px solid rgba(211, 201, 201, 0.735);
+  border-radius: 7px;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 5px 5px 10px grey;
+}
+#about_div1,
+#data_div1 {
+  display: none;
+  margin: 1% 2% 1% 2%;
+  border: 1px solid rgba(211, 201, 201, 0.735);
+  border-radius: 7px;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 5px 5px 10px grey;
+}
+#about_div2,
+#data_div2 {
+  display: none;
+  margin: 1% 2% 1% 2%;
+  border: 1px solid rgba(211, 201, 201, 0.735);
+  border-radius: 7px;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 5px 5px 10px grey;
+}
+#about_div3,
+#data_div3 {
+  display: none;
+  margin: 1% 2% 1% 2%;
+  border: 1px solid rgba(211, 201, 201, 0.735);
+  border-radius: 7px;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 5px 5px 10px grey;
+}
+#about_div4,
+#data_div4 {
+  display: none;
+  margin: 1% 2% 1% 2%;
+  border: 1px solid rgba(211, 201, 201, 0.735);
+  border-radius: 7px;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 5px 5px 10px grey;
+}
+#about_div5,
+#data_div5 {
+  display: none;
+  margin: 1% 2% 1% 2%;
+  border: 1px solid rgba(211, 201, 201, 0.735);
+  border-radius: 7px;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 5px 5px 10px grey;
+}
+
+#about_div6,
+#data_div6 {
+  display: none;
+  margin: 1% 2% 1% 2%;
+  border: 1px solid rgba(211, 201, 201, 0.735);
+  border-radius: 7px;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 5px 5px 10px grey;
+}
+#about_div7,
+#data_div7 {
+  display: none;
+  margin: 1% 2% 1% 2%;
+  border: 1px solid rgba(211, 201, 201, 0.735);
+  border-radius: 7px;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: 5px 5px 10px grey;
+}
+ul li .up {
+  border: 1px solid white;
+  display: flex;
+  margin: 0 2% 0 2%;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  
+}
+ul li .up .logos {
+  margin-left: auto;
+}
+.links li {
+  list-style: none;
+}
+i{
+  cursor:pointer;
+}

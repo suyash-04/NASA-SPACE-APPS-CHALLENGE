@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--css links -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/docs.css" />
+
+    <!-- jquery links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title></title>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
+		<style>
+      * {
+        color:white;
+      }
+			/* Add CSS styles for the app */
+			.form-group {
+				display: flex;
+        flex-direction: column;
+				justify-content: center;
+				align-items: center;
+        margin: 3%;
+        padding: 30px;
+        border: 1px solid rgba(211, 201, 201, 0.735);
+        border-radius: 10px;
+			}
+			label {
+				font-size: 1.75rem;
+				margin-bottom: 10px;
+        display: block;
+			}
+			input[type="text"] {
+				font-size: 1.5rem !important;
+				width: 300px;
+				height: 50px;
+				padding: 10px;
+				border-radius: 10px;
+				outline: none;
+        border: 1px solid white;
+				
+			}
+			input[type="text"]:focus {
+				border-bottom: 1px solid white;
+			}
+			button[type="submit"] {
+				font-size: 20px;
+				width: 300px;
+				height: 50px;
+        position:relative;
+				border-radius: 10px;
+				background-color: rgba(173, 216, 230, 0.374);
+        left: calc(48% - 150px);
+				border: none;
+				outline: none;
+				cursor: pointer;
+        
+			}
+			button[type="submit"]:active {
+				transform: scale(0.95);
+			}
+      button[type="submit"]:hover{
+        color:turquoise;
+      }
+      .up {
+        padding: 10px;
+      }
+			.alllist, .hello {
+				flex:1;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding: 20px;
+				border: 1px solid white;
+				border-radius: 10px;
+				box-shadow: 5px 5px 10px grey;
+				margin: 20px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.15rem;
+        font-size: 1.3rem;
+				
+			}
+      .about_group {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.15rem;
+        font-size: 1.3rem;
+      }
+      #prop{
+        border: 1px solid white;
+        border-radius: 8px;
+        margin: 0.2%;
+        background-color: rgba(255, 255, 255, 0.114);
+        display: none;
+        height: fit-content;
+        align-self: center;
+        box-shadow: 5px 5px 10px grey;
+
+      }
+
+      @media (max-width: 1000px)
+      {
+        #top_data{
+          flex-direction: column;
+        }
+      }
+      
+		</style>
+		<link rel="stylesheet" href="assets/css/test.css" />
+		<link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div style="z-index: -1;"id="particles-js"></div>
+    <a
+      style="position: fixed; top: 20px; left: 20px"
+      class="back-btn btn-floating btn-large waves-effect waves-light teal"
+      href="index.html"
+      ><i class="material-icons">arrow_back</i></a
+    >
+
+    <script type="text/javascript" src="assets/js/particles.min.js"></script>
+    <script type="text/javascript" src="assets/js/finalFOrm.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".collapsible").collapsible();
+      });
+    </script>
+<div id ="top_data" style="display:flex; padding-top:10px; margin-bottom: 10px;">
+  <div class="form-group" style="flex:1;">
+    <form id="destinationform">
+      <label for="date">Enter start date:</label>
+      <input type="text" id="date" required /><br>
+      <label for="dest">Enter destination:</label>
+      <input type="text" id="dest" required style="margin-bottom: 20px;"/>
+      <button type="submit">Submit</button>
+    </form>
+  </div>	  
+<div id= "model_div" style="flex:1;"></div><div style="display: flex; align-items: center; justify-content: center; flex: 1;"><div id="prop" style="padding: 20px"></div></div></div>
+<div id="hazardlist"></div>	 
+<div id="totalinten" style="justify-content: center; display: flex"></div>
+<script src="assets/js/script.js" defer></script> 
+  </body>
+</html>

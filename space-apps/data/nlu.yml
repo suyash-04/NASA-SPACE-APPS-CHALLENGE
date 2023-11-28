@@ -1,0 +1,203 @@
+version: "2.0"
+
+nlu:
+- intent: mercury
+  examples: |
+    - mercury
+    - Tell me about mercury
+    - Tell me something interesting about mercury that I might not know.
+    - Could you share a fun fact about the planet mercury?
+    - I'm looking for random trivia about mercury. What can you share?
+    - What's a lesser-known fact or tidbit about mercury?
+    - Give me a surprising fact about the mercury, please.
+    - I'd love to hear a curious detail about mercury. What's one?
+    - What are some unique characteristics of mercury that people often overlook?
+    - Teach me something new about mercury, perhaps a fascinating discovery. 
+
+
+- intent: venus
+  examples: |
+    - venus
+    - Tell me about venus
+    - Tell me something interesting about venus that I might not know.
+    - Could you share a fun fact about the planet venus?
+    - I'm looking for random trivia about venus. What can you share?
+    - What's a lesser-known fact or tidbit about venus?
+    - Give me a surprising fact about the venus, please.
+    - I'd love to hear a curious detail about venus. What's one?
+    - What are some unique characteristics of venus that people often overlook?
+    - Teach me something new about venus, perhaps a fascinating discovery. 
+
+
+- intent: earth
+  examples: |
+    - earth
+    - Tell me about earth
+    - Tell me something interesting about earth that I might not know.
+    - Could you share a fun fact about the planet earth?
+    - I'm looking for random trivia about earth. What can you share?
+    - What's a lesser-known fact or tidbit about earth?
+    - Give me a surprising fact about the earth, please.
+    - I'd love to hear a curious detail about earth. What's one?
+    - What are some unique characteristics of earth that people often overlook?
+    - Teach me something new about earth, perhaps a fascinating discovery. 
+
+
+- intent: mars
+  examples: |
+    - mars
+    - Tell me about mars
+    - Tell me something interesting about mars that I might not know.
+    - Could you share a fun fact about the planet mars?
+    - I'm looking for random trivia about mars. What can you share?
+    - What's a lesser-known fact or tidbit about mars?
+    - Give me a surprising fact about the mars, please.
+    - I'd love to hear a curious detail about mars. What's one?
+    - What are some unique characteristics of mars that people often overlook?
+    - Teach me something new about mars, perhaps a fascinating discovery. 
+
+
+- intent: jupiter
+  examples: |
+    - jupiter
+    - Tell me about jupiter
+    - Tell me something interesting about jupiter that I might not know.
+    - Could you share a fun fact about the planet jupiter?
+    - I'm looking for random trivia about jupiter. What can you share?
+    - What's a lesser-known fact or tidbit about jupiter?
+    - Give me a surprising fact about the jupiter, please.
+    - I'd love to hear a curious detail about jupiter. What's one?
+    - What are some unique characteristics of jupiter that people often overlook?
+    - Teach me something new about jupiter, perhaps a fascinating discovery. 
+
+
+- intent: saturn
+  examples: |
+    - saturn
+    - Tell me about saturn
+    - Tell me something interesting about saturn that I might not know.
+    - Could you share a fun fact about the planet saturn?
+    - I'm looking for random trivia about saturn. What can you share?
+    - What's a lesser-known fact or tidbit about saturn?
+    - Give me a surprising fact about the saturn, please.
+    - I'd love to hear a curious detail about saturn. What's one?
+    - What are some unique characteristics of saturn that people often overlook?
+    - Teach me something new about saturn, perhaps a fascinating discovery. 
+
+
+- intent: uranus
+  examples: |
+    - uranus
+    - Tell me about uranus
+    - Tell me something interesting about uranus that I might not know.
+    - Could you share a fun fact about the planet uranus?
+    - I'm looking for random trivia about uranus. What can you share?
+    - What's a lesser-known fact or tidbit about uranus?
+    - Give me a surprising fact about the uranus, please.
+    - I'd love to hear a curious detail about uranus. What's one?
+    - What are some unique characteristics of uranus that people often overlook?
+    - Teach me something new about uranus, perhaps a fascinating discovery. 
+
+
+- intent: neptune
+  examples: |
+    - neptune
+    - Tell me about neptune
+    - Tell me something interesting about neptune that I might not know.
+    - Could you share a fun fact about the planet neptune?
+    - I'm looking for random trivia about neptune. What can you share?
+    - What's a lesser-known fact or tidbit about neptune?
+    - Give me a surprising fact about the neptune, please.
+    - I'd love to hear a curious detail about neptune. What's one?
+    - What are some unique characteristics of neptune that people often overlook?
+    - Teach me something new about neptune, perhaps a fascinating discovery. 
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
